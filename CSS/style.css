@@ -20,7 +20,7 @@ header{
     box-shadow: 0px 0px 4px gray;
     margin-bottom: 5px;
     position: fixed;
-
+    z-index: 2;
 }
 .container{
     width: 1200px;
@@ -1019,5 +1019,214 @@ section{
     font-size: 14px;
     padding: 10px 0px;
     font-weight: 600;
-
+}
+.section{
+    width: 1150px;
+    flex-direction: column;
+}
+.home-banner img{
+    width: 1150px;
+    margin: 20px auto;
+}
+.home-bed{
+    width: 810px;
+    height: 1360px;
+    position: relative;
+    cursor: pointer;
+}
+.home-1heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 2.8px;
+    font-size: 30px;
+    margin: 50px 0 10px 30px;
+    max-height: 80px;
+    font-weight: 700;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: -160px;
+}
+.home-bed-furnishing{
+    width: 820px;
+    height: 300px;
+    position: absolute;
+    top: 170px;
+    left: -170px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.home-bed-furnishing img{
+    width: 400px;
+    height: 305px;
+    transition: 0.5s;
+}
+.home-bed-1:hover img{
+    transform: scale(1.04);
+}
+.home-bed-2:hover img{
+    transform: scale(1.04);
+}
+.home-art-1:hover img{
+    transform: scale(1.04);
+}
+.home-art-2:hover img{
+    transform: scale(1.04);
+}
+.home-kitchen-1:hover img{
+    transform: scale(1.04);
+}
+.home-kitchen-2:hover img{
+    transform: scale(1.04);
+}
+.home-art-lamps{
+    width: 820px;
+    height: 300px;
+    position: absolute;
+    top: 550px;
+    left: -170px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.home-art-lamps img{
+    width: 400px;
+    height: 305px;
+    transition: 0.5s;
+}
+.home-kitchen-bath{
+    width: 820px;
+    height: 300px;
+    position: absolute;
+    top: 920px;
+    left: -170px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.home-kitchen-bath img{
+    width: 400px;
+    height: 305px;
+    transition: 0.5s;
+}
+.home-bed-right{
+    width: 200px;
+    weight: 1340px;
+    position: relative;
+    left: 100px;
+    float: right;
+}
+.furnishing-content{
+    width: 100%;
+    height: 240px;
+    color: #3e4152;
+    font-size: 15px;
+}
+.first{
+    padding-top: 15px;
+}
+.furnishing-content p{
+    margin-bottom: 5px;
+}
+.bath-content{
+    width: 100%;
+    height: 165px;
+    color: #3e4152;
+    font-size: 15px;
+}
+.bath-content p{
+    margin-bottom: 5px;
+}
+.home-content{
+    width: 100%;
+    height: 360px;
+    color: #3e4152;
+    font-size: 15px;
+}
+.home-content p{
+    margin-bottom: 5px;
+}
+.lamp-content{
+    width: 100%;
+    height: 190px;
+    color: #3e4152;
+    font-size: 15px;
+}
+.lamp-content p{
+    margin-bottom: 5px;
+}
+.kitchen-content{
+    width: 100%;
+    height: 275px;
+    color: #3e4152;
+    font-size: 15px;
+}
+.kitchen-content p{
+    margin-bottom: 5px;
+}
+.Organisers-content{
+    width: 100%;
+    height: 90px;
+    color: #3e4152;
+    font-size: 15px;
+}
+.Organisers-content p{
+    margin-bottom: 5px;
+}
+.get-inspired{
+    background-color: rgb(239, 237, 237);
+}
+.get-inspired img{
+    width: 1260px;
+}
+.wedding-images{
+    width: 1100px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.wedding-images img{
+    width: 360px;
+    height: 380px;
+    transition: 0.4s;
+}
+.wedding:hover img{
+    transform: scale(1.04);
+}
+.season-white:hover img{
+    transform: scale(1.04);
+}
+.handcrafted:hover img{
+    transform: scale(1.04);
+}
+.feature-brands img{
+    width: 100%;
+}
+.feature-brands-logo{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.swayam img{
+    width: 208px;
+    height: 135px;
+}
+.updated img{
+    width: 208px;
+    height: 135px;
+}
+.bedbath img{
+    width: 208px;
+    height: 87px;
+}
+.m-s img{
+    width: 208px;
+    height: 135px;
+}
+.decor img{
+    width: 208px;
+    height: 125px;
 }
